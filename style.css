@@ -1,0 +1,111 @@
+
+body{
+    background-color: black;
+    padding: 0%;
+    margin: 0;
+}
+
+/* HEADER SIDE OF THINGS */
+
+header{
+    color: whitesmoke;
+    background: #35424a;
+    padding: 10px;
+    min-height: 50px;
+    border-bottom: #e8491d solid 4px;
+}
+header .branding {
+    float: left;
+}
+header .branding h1 {
+    margin: 0;
+    margin-top: 15px;
+}
+
+
+header .highlight {
+    color: #e8491d;
+    font-weight: bolder;
+}
+
+
+/* working with the moviee list*/
+.trend{
+    color: whitesmoke;
+    margin-top: 20px;
+}
+.trend:hover {
+    color: #13044e;
+}
+.movie1{
+    padding: 0 20px;
+}
+
+.list2{
+    display: flex;
+    align-items: center;
+    height: 300px;
+}
+.nowlist {
+    transition: all 1s ease-in-out;
+    width: 270px;
+    height: 200px;
+    padding: 20px;
+}
+
+.onlist {
+    margin-right: 30px;
+    position: relative;
+}
+.onlist:hover .nowlist {
+    transform: scale(1.2);
+    margin: 0 30px;
+    opacity: 0.5;
+
+}
+.icloud {
+    background-color: #35424a;
+    padding: 0 10px;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 25px;
+    opacity: 0;
+    transition: 1s all ease-in-out;
+}
+
+a {
+    color: #13044e;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 30px;
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    width: 230px;
+    transition: 1s all ease-in-out;
+}
+a:hover {
+    color: aqua;
+}
+
+.onlist:hover .icloud,
+.onlist:hover .click-1 {
+    opacity: 1;
+}
+.movie-list {
+   overflow: hidden;
+   
+}
+.arrows {
+    font-size: 120px;
+    color: whitesmoke;
+    position: absolute;
+    top: 75%;
+    right: 0;
+    opacity: .5;
+    cursor: pointer;
+   
+}
+
