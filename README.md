@@ -1,4 +1,4 @@
-# SAIN DIARIES
+# SAINT DIARIES
 SAINT DIARIES is a website that focuses on entertainment. The website will provides its users with helpful and extensive content that keeps them happy. It going to be a reliable website for downloading most movies, particularly Nollywood, Hollywood, Bollywood, and Chinese films.
 Aside from Nigerian movies, you can also download American TV shows, exclusive Netflix series or movies, and your favorite songs from your favorite musicians from this website. Over the years, it will have a  sizable user base. The nicest part about this website is that you can watch clear movies while just using a small amount of internet data.
 
