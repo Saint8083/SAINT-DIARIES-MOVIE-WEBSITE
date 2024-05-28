@@ -8,108 +8,284 @@
     <title>SAINT MOVIESITE</title>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins&display=swap">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     
 </head>
-<body>
+<div>
+    <!-- navbar--> 
     <header>
-        <div class="container">
-            <div class="branding">
-                <h1><span class="highlight">SAINT</span> DIARIES</h1>
-            </div>
-                
-        </div>
+        <a href="#" class="logo">
+            <i class='bx bxs-camera-movie' ></i>
+            <h1><span>SAINT </span> DIARIES</h1>
+        </a>
+        <div class='bx bxs-camera-movie' id="menu-icon"></div>
+            <ul class="navbar">
+                <li><a href="#home" class="home-active">Home</a></li>
+                <li><a href="#korean">Korean</a></li>
+                <li><a href="#thriller">Thriller</a></li>
+                <li><a href="#newsletter">Newsletter</a></li>
+            </ul>
     </header>
-    <section id="showcase">
-        <div class="container">
-            <img src="IMG/dune.png" width="100%" height="200px">
+    <div class="home swiper" id="home">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide container">
+                <img src="IMG/DUNE01.jpeg" alt="">
+                <div class="home-text">
+                    <span>Marvel Universe</span>
+                    <h1>DUNE</h1>
+                    <a href="https://nkiri.com/dune-2021-download-hollywood-movie/" target="_blank" class="btn">Dowloand and Watch</a>
+               </div>
+            </div>
+            <!-- BOX 2-->
+            <div class="swiper-slide container"> 
+                <img src="IMG/REBEL.jpeg" alt="">
+                <div class="home-text">
+                     <span>Marvel Universe</span>
+                     <h1>REBEL MOON</h1>
+                     <a href="https://nkiri.com/rebel-moon-part-one-a-child-of-fire-2023-download-hollywood-movie/" target="_blank" class="btn">Dowloand and Watch</a>
+                </div>
+            </div>
+            <!-- BOX 3-->
+            <div class="swiper-slide container"> 
+                <img src="IMG/justice.jpeg" alt="">
+                <div class="home-text">
+                     <span>Marvel Universe</span>
+                     <h1>JUSTICE LEAGUE</h1>
+                     <a href="https://nkiri.com/justice-league-crisis-on-infinite-earths-2024-download-hollywood-movie/" target="_blank" class="btn">Dowloand and Watch</a>
+                </div>
+            </div>
+            <!-- BOX 4-->
+            <div class="swiper-slide container"> 
+                <img src="IMG/ASOKA.jpg" alt="">
+                <div class="home-text">
+                     <span>Action</span>
+                     <h1>ASOKA</h1>
+                     <a href="https://nkiri.com/asoka-2023-download-indian-movie/" target="_blank" class="btn">Dowloand and Watch</a>
+                </div>
+             </div>
+              <!-- BOX 5-->
+            <div class="swiper-slide container"> 
+                <img src="IMG/IMAGINATORY.jpg" alt="">
+                <div class="home-text">
+                     <span>Horror</span>
+                     <h1>Imaginary</h1>
+                     <a href="https://nkiri.com/imaginary-2024-download-hollywood-movie/" target="_blank" class="btn">Dowloand and Watch</a>
+                </div>
+             </div>
+              <!-- BOX 6-->
+            <div class="swiper-slide container"> 
+                <img src="IMG/ATLAS.jpeg" alt="">
+                <div class="home-text">
+                     <span>Marvel Universe</span>
+                     <h1>ATLAS</h1>
+                     <a href="https://nkiri.com/atlas-2024-download-hollywood-movie/" target="_blank" class="btn">Dowloand and Watch</a>
+                </div>
+             </div>
+             
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+    </div>    
+    </section>
+    <!---->
+    <section class="movies" id="movies">
+        <h2 class="heading">HELLO DIARY!!!</h2>
+        <div class="movies-container">
+            <!--BOX 1-->
+            <div class="box">
+                <div class="box-img">
+                    <img src="IMG/thirllers/60MINUTES.jpeg" alt="">
+                </div>
+                <h3>60MINUTES</h3>
+                <span>Best Thriller</span>
+            </div>
+             <!--BOX 2-->
+             <div class="box">
+                <div class="box-img">
+                    <img src="IMG/thirllers/Arcadian.jpeg" alt="">
+                </div>
+                <h3>Arcadian</h3>
+                <span>Best Thriller</span>
+            </div>
+             <!--BOX 3-->
+             <div class="box">
+                <div class="box-img">
+                    <img src="IMG/thirllers/big water.jpeg" alt="">
+                </div>
+                <h3>Big Water</h3>
+                <span>Best Thriller</span>
+            </div>
+             <!--BOX 4-->
+             <div class="box">
+                <div class="box-img">
+                    <img src="IMG/thirllers/creature.jpeg" alt="">
+                </div>
+                <h3>geon creature</h3>
+                <span>Best Thriller</span>
+            </div>
+             <!--BOX 5-->
+             <div class="box">
+                <div class="box-img">
+                    <img src="IMG/thirllers/damaged.jpeg" alt="">
+                </div>
+                <h3>Damaged</h3>
+                <span>Best Thriller</span>
+            </div>
+             <!--BOX 6-->
+             <div class="box">
+                <div class="box-img">
+                    <img src="IMG/thirllers/killer.jpeg" alt="">
+                </div>
+                <h3>Shop for Killers</h3>
+                <span>Best Thriller</span>
+            </div>
+             <!--BOX 7-->
+             <div class="box">
+                <div class="box-img">
+                    <img src="IMG/thirllers/quiet.jpeg" alt="">
+                </div>
+                <h3>Queit Place</h3>
+                <span>Best Thriller</span>
+            </div>
+             <!--BOX 8-->
+             <div class="box">
+                <div class="box-img">
+                    <img src="IMG/thirllers/sting.jpeg" alt="">
+                </div>
+                <h3>Sting</h3>
+                <span>Best Thriller</span>
+            </div>
+             <!--BOX 9-->
+             <div class="box">
+                <div class="box-img">
+                    <img src="IMG/thirllers/us.jpeg" alt="">
+                </div>
+                <h3>US</h3>
+                <span>Best Thriller</span>
+            </div>
+             <!--BOX 10-->
+             <div class="box">
+                <div class="box-img">
+                    <img src="IMG/thirllers/washers.jpeg" alt="">
+                </div>
+                <h3>Washer</h3>
+                <span>Best Thriller</span>
+            </div>
+        </div>
+
+    </section>
+    <!--KOREAN SERIES-->
+    <section class="coming" id="coming">
+        <h2 class="heading">KOREAN SERIES</h2>
+        <!--KOREAN container-->
+        <div class="coming-container swiper">
+            <!--BOX 1-->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="IMG/korean/queentears.jpg">
+                </div>
+                <h3>ROM/COM SERIES</h3>
+                <span>QUEEN OF TEARS</span>
+            </div>
+            <!--BOX 2-->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="IMG/korean/runner.jpg">
+                </div>
+                <h3>ROM/COM SERIES</h3>
+                <span>Lovely Runners</span>
+            </div>
+            <!--BOX 3-->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="IMG/korean/PYRAMIDGAME.jpg">
+                </div>
+                <h3>ROM/COM SERIES</h3>
+                <span>PYRAMIDGAME</span>
+            </div>
+            <!--BOX 4-->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="IMG/korean/myname.jpg">
+                </div>
+                <h3>ROM/COM SERIES</h3>
+                <span>Myname</span>
+            </div>
+            <!--BOX 5-->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="IMG/korean/killbok.jpg">
+                </div>
+                <h3>ROM/COM SERIES</h3>
+                <span>Killbok</span>
+            </div>
+            <!--BOX 6-->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="IMG/korean/HIDE.jpg">
+                </div>
+                <h3>ROM/COM SERIES</h3>
+                <span>HIDE</span>
+            </div>
+            <!--BOX 7-->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="IMG/korean/HEIR.jpg">
+                </div>
+                <h3>ROM/COM SERIES</h3>
+                <span>Impossible Heir</span>
+            </div>
+            <!--BOX 8-->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="IMG/korean/FLEX.jpg">
+                </div>
+                <h3>ROM/COM SERIES</h3>
+                <span>Flex Cops</span>
+            </div>
+            <!--BOX 9-->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="IMG/korean/family.jpg">
+                </div>
+                <h3>ROM/COM SERIES</h3>
+                <span>Typical Familly</span>
+            </div>
+            <!--BOX 10-->
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box">
+                    <img src="IMG/korean/connection.jpg">
+                </div>
+                <h3>ROM/COM SERIES</h3>
+                <span>Connection</span>
+            </div>
+             
         </div>
     </section>
-    <div class="search">
-        <input type="text" placeholder="Enter a word" id="inp-word">
-            <button id="search-btn"><i class="fas fa-search" id="search-icon"></i></button>
-    </div>
-        <div class="movie1">
-            <h1 class="trend">TRENDING</h1>
+    <!--NEWSLETTER-->
+    <section class="newsletter" id="newsletter">
+        <h2>Subscribe To Get <br> Newsletter</h2>
+        <form action="">
+            <input type="email" class="email" placeholder="Enter Email ..." required>
+            <input type="submit" value="subribe" class="btn">
+        </form>
+    </section>
+    <!--FOOTER-->
+    <section class="footer">
+        <a href="#" class="logo">
+            <i class="'bx bxs-movie"></i>
+        </a>
+        <div class="social">
+            <a href="#"><img src="IMG/github.ico"></a>
+            <a href="#"><img src="IMG/fac.ico"></a>
+            <a href="#"><img src="IMG/insta.ico"></a>
+            <a href="#"><img src="IMG/twitter.ico"></a>
         </div>
-        <div class="movie-list">
-            <div class="list2">
-                <div class="onlist">
-                    <img class="nowlist" src="IMG/TWD.jpg" alt="">
-                    <span class="icloud">TWD</span>
-                    <a href="https://nkiri.com/the-walking-dead-the-ones-who-live-s01-complete-tv-series/s" target="_blank">visit nkiri.com</a>
-                </div>
-                <div class="onlist">
-                    <img class="nowlist" src="IMG/ASOKA.jpg" alt="">
-                    <span class="icloud">ASOKA</span>
-                    <a href="https://nkiri.com/asoka-2023-download-indian-movie/" target="_blank">visit nkiri.com</a>
-                </div>
-                <div class="onlist">
-                    <img class="nowlist" src="IMG/PYRAMIDGAME.jpg"">
-                    <span class="icloud">PYRAMIDGAME</span>
-                    <a href="https://nkiri.com/pyramid-game-s01-complete-korean-drama/" target="_blank">visit nkiri.com</a>
-                </div>
-                <div class="onlist">
-                    <img class="nowlist" src="IMG/queentears.jpg" alt="">
-                    <span class="icloud">QUEEN OF TEARS</span>
-                    <a href="https://nkiri.com/queen-of-tears-s01-episode-1-added-korean-drama/" target="_blank">visit nkiri.com</a>
-                </div>
-            </div>
-            <div class="movie1">
-                <h1 class="trend">NEW RELEASES</h1>
-            </div>
-            <div class="movie-list">
-                <div class="list2">
-                    <div class="onlist">
-                        <img class="nowlist" src="IMG/HEIR.jpg" alt="">
-                        <span class="icloud">IMPOSSIBLE HEIR</span>
-                        <a href="https://nkiri.com/the-impossible-heir-s01-complete-korean-drama/" target="_blank">visit nkiri.com</a>
-                    </div>
-                    <div class="onlist">
-                        <img class="nowlist" src="IMG/code-8.jpeg" alt="">
-                        <span class="icloud">CODE8</span>
-                        <a href="https://nkiri.com/code-8-part-ii-2024-download-hollywood-movie/" target="_blank">visit nkiri.com</a>
-                    </div>
-                    <div class="onlist">
-                        <img class="nowlist" src="IMG/TRAKKER.jpg"">
-                        <span class="icloud">TRAKKER</span>
-                        <a href="https://nkiri.com/tracker-s01-complete-tv-series/" target="_blank">visit nkiri.com</a>
-                    </div>
-                    <div class="onlist">
-                        <img class="nowlist" src="IMG/CLEANINGLADY.jpg" alt="">
-                        <span class="icloud">QUEEN OF TEARS</span>
-                        <a href="https://nkiri.com/the-cleaning-lady-s03-complete-tv-series/" target="_blank">visit nkiri.com</a>
-                    </div>
-                </div>
-            </div>
-            <div class="movie1">
-                <h1 class="trend">MUST WATCH</h1>
-            </div>
-            <div class="movie-list">
-                <div class="list2">
-                    <div class="onlist">
-                        <img class="nowlist" src="IMG/HIDE.jpg" alt="">
-                        <span class="icloud">HIDE</span>
-                        <a href="https://nkiri.com/hide-s01-complete-korean-drama/" target="_blank">visit nkiri.com</a>
-                    </div>
-                    <div class="onlist">
-                        <img class="nowlist" src="IMG/UNSEEN.jpg" alt="">
-                        <span class="icloud">SIGHT UNSEEN</span>
-                        <a href="https://nkiri.com/sight-unseen-s01-complete-tv-series/" target="_blank">visit nkiri.com</a>
-                    </div>
-                    <div class="onlist">
-                        <img class="nowlist" src="IMG/IMAGINATORY.jpg"">
-                        <span class="icloud">IMAGINATORY</span>
-                        <a href="https://nkiri.com/imaginary-2024-download-hollywood-movie/" target="_blank">visit nkiri.com</a>
-                    </div>
-                    <div class="onlist">
-                        <img class="nowlist" src="IMG/WEDDINGIMPOSIBLE.jpg" alt="">
-                        <span class="icloud">WEDDINGIMPOSIBLE</span>
-                        <a href="https://nkiri.com/wedding-impossible-s01-complete-korean-drama/" target="_blank">visit nkiri.com</a>
-                    </div>
-                </div>
-                <i class="fas fa-chevron-right arrows"></i>
+    </section>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-            </div>
-    <script src="script.js"></script>
+    <script src="script.js"></script>>
 </body>
 </html>
