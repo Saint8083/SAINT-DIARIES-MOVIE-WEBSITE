@@ -9,5 +9,9 @@ var swiper = new Swiper(".home", {
     el: ".swiper-pagination",
     clickable: true,
   },
-  
-});
+ 
+}); 
+
+//swiper
+
+
